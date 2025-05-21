@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ecommerce/static/css/main.8b458db6.css",
+    "main.css": "/Ecommerce/static/css/main.630a6169.css",
     "main.js": "/Ecommerce/static/js/main.c28cd77d.js",
     "static/media/ecomerace-logo.jpg": "/Ecommerce/static/media/ecomerace-logo.0800ab981704f7c39734.jpg",
     "static/media/11.jpg": "/Ecommerce/static/media/11.4fd31b156b7a61a70023.jpg",
@@ -8,11 +8,11 @@
     "static/media/14.jpg": "/Ecommerce/static/media/14.d194a3225f03a155827e.jpg",
     "static/media/13.jpg": "/Ecommerce/static/media/13.d43d14dc6e8ee4cf085d.jpg",
     "index.html": "/Ecommerce/index.html",
-    "main.8b458db6.css.map": "/Ecommerce/static/css/main.8b458db6.css.map",
+    "main.630a6169.css.map": "/Ecommerce/static/css/main.630a6169.css.map",
     "main.c28cd77d.js.map": "/Ecommerce/static/js/main.c28cd77d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b458db6.css",
+    "static/css/main.630a6169.css",
     "static/js/main.c28cd77d.js"
   ]
 }

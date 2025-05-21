@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.630a6169.css",
-    "main.js": "/static/js/main.d650e9ff.js",
-    "static/media/ecomerace-logo.jpg": "/static/media/ecomerace-logo.0800ab981704f7c39734.jpg",
-    "static/media/11.jpg": "/static/media/11.4fd31b156b7a61a70023.jpg",
-    "static/media/10.jpg": "/static/media/10.915c56adbc72c45f623a.jpg",
-    "static/media/14.jpg": "/static/media/14.d194a3225f03a155827e.jpg",
-    "static/media/13.jpg": "/static/media/13.d43d14dc6e8ee4cf085d.jpg",
-    "index.html": "/index.html",
-    "main.630a6169.css.map": "/static/css/main.630a6169.css.map",
-    "main.d650e9ff.js.map": "/static/js/main.d650e9ff.js.map"
+    "main.css": "/Ecommerce/static/css/main.630a6169.css",
+    "main.js": "/Ecommerce/static/js/main.9e7253e5.js",
+    "static/media/ecomerace-logo.jpg": "/Ecommerce/static/media/ecomerace-logo.0800ab981704f7c39734.jpg",
+    "static/media/11.jpg": "/Ecommerce/static/media/11.4fd31b156b7a61a70023.jpg",
+    "static/media/10.jpg": "/Ecommerce/static/media/10.915c56adbc72c45f623a.jpg",
+    "static/media/14.jpg": "/Ecommerce/static/media/14.d194a3225f03a155827e.jpg",
+    "static/media/13.jpg": "/Ecommerce/static/media/13.d43d14dc6e8ee4cf085d.jpg",
+    "index.html": "/Ecommerce/index.html",
+    "main.630a6169.css.map": "/Ecommerce/static/css/main.630a6169.css.map",
+    "main.9e7253e5.js.map": "/Ecommerce/static/js/main.9e7253e5.js.map"
   },
   "entrypoints": [
     "static/css/main.630a6169.css",
-    "static/js/main.d650e9ff.js"
+    "static/js/main.9e7253e5.js"
   ]
 }

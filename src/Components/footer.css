@@ -1,0 +1,27 @@
+.footer {
+  /* color: #fff; */
+  padding: 20px;
+  background-color: #0b1926 !important;
+  /* position: absolute; */
+  width: 100%;
+  /* bottom: 0; */
+}
+.footer .footer-logo {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50%;
+}
+.site-logo:hover {
+  cursor: pointer;
+}
+.quick-links ul a,
+.social-media a {
+  transition-duration: 0.4s;
+}
+.quick-links ul a:hover {
+  color: var(--yellow-color) !important;
+  text-decoration: underline !important;
+}
+.social-media a:hover {
+  color: var(--yellow-color) !important;
+}

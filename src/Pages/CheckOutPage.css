@@ -1,0 +1,21 @@
+.check-content {
+  border: 2px solid #ababab3d;
+  border-radius: 6px;
+}
+
+.credit-card {
+  border: 2px solid #d6d6d6;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.btns button {
+  background-color: #06508b !important;
+  transition-duration: 0.4s;
+  min-width: 230px !important;
+}
+.btns button:hover {
+  background-color: rgb(6, 48, 83) !important;
+  color: #fff !important;
+}

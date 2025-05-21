@@ -1,0 +1,25 @@
+.back-to-home {
+  background-color: #06508b !important;
+  transition-duration: 0.4s;
+  min-width: 230px !important;
+}
+.back-to-home:hover {
+  background-color: rgb(6, 48, 83) !important;
+  color: #fff !important;
+}
+.success-info {
+  border: 2px solid #ababab3d;
+  border-radius: 6px;
+}
+@media (max-width: 767px) {
+  .title-success {
+    font-size: 19px !important;
+  }
+  .success-info .success-paragraph {
+    font-size: 17px !important;
+  }
+}
+.title-success,
+.success-info .success-paragraph {
+  line-height: 1.7;
+}

@@ -1,0 +1,19 @@
+textarea {
+  resize: none !important;
+  height: 160px;
+}
+.contact-form {
+  border: 2px solid #ababab3d;
+  border-radius: 6px;
+}
+.send-message-btn {
+  background-color: #06508b !important;
+  transition-duration: 0.4s;
+  min-width: 230px !important;
+}
+.send-message-btn:hover {
+  background-color: rgb(6, 48, 83) !important;
+  color: #fff !important;
+}
+
+/*=============================== */

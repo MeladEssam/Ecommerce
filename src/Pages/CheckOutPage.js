@@ -1,6 +1,5 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import "./CheckOutPage.css";
-import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { deleteAllProducts } from "../rtk/Cart-slice";
@@ -8,18 +7,12 @@ import { useFormik } from "formik";
 import checkOutSchema from "../Schemas/checkOutSchema";
 function CheckoutPage() {
   const [paymentMethod, setPaymentMethod] = useState("");
-
-  // when submit do this
   let dispatch = useDispatch();
   const navigate = useNavigate();
-  // dispatch(deleteAllProducts());
-  // navigate("/success")
-
   let onSubmit = () => {
     dispatch(deleteAllProducts());
     navigate("/success");
   };
-
   let { values, errors, touched, handleBlur, handleChange, handleSubmit } =
     useFormik({
       initialValues: {
@@ -36,9 +29,6 @@ function CheckoutPage() {
       validationSchema: checkOutSchema,
       onSubmit,
     });
-  // form-control
-  console.log(values);
-  console.log(errors);
 
   return (
     <div className="checkout pb-5">
@@ -61,8 +51,6 @@ function CheckoutPage() {
                       onChange={handleChange}
                       onBlur={handleBlur}
                       type="text"
-                      // className="form-control"
-
                       id="name"
                       placeholder="your full name"
                       name="name"
@@ -92,7 +80,6 @@ function CheckoutPage() {
                       onBlur={handleBlur}
                       name="email"
                       type="email"
-                      // className="form-control"
                       id="email"
                       aria-describedby="emailHelp"
                       placeholder="email address"
@@ -121,7 +108,6 @@ function CheckoutPage() {
                     <input
                       name="phoneNumber"
                       type="text"
-                      // className="form-control"
                       id="phoneNum"
                       placeholder="phone number"
                       value={values.phoneNumber}
@@ -180,7 +166,6 @@ function CheckoutPage() {
                     <input
                       name="city"
                       type="text"
-                      // className="form-control"
                       id="city"
                       placeholder="city "
                       value={values.city}
@@ -208,7 +193,6 @@ function CheckoutPage() {
                     <input
                       name="address"
                       type="text"
-                      // className="form-control"
                       id="detailedAddress"
                       placeholder="detailed address"
                       value={values.address}
@@ -278,7 +262,6 @@ function CheckoutPage() {
                         <input
                           name="cardNumber"
                           type="text"
-                          // className="form-control"
                           id="cardNumber"
                           placeholder="Enter card number"
                           value={values.cardNumber}
@@ -306,7 +289,6 @@ function CheckoutPage() {
                         <input
                           name="expiredDate"
                           type="text"
-                          // className="form-control"
                           id="expiredDate"
                           placeholder="MM/YY/YY"
                           value={values.expiredDate}
@@ -338,7 +320,6 @@ function CheckoutPage() {
                           <input
                             name="CVV"
                             type="text"
-                            // className="form-control"
                             id="CVV"
                             placeholder="CVV"
                             value={values.CVV}
@@ -361,7 +342,7 @@ function CheckoutPage() {
                   </div>
                 )}
 
-                <div className="btns mt-5 w-100 d-flex gap-3 justify-content-center flex-column flex-sm-row">
+                <div className="btns mt-5 w-100 d-flex gap-3  flex-column flex-sm-row">
                   <button
                     type="submit"
                     className="btn  fw-bold px-4 py-2 yellow-color back-to-products  "

@@ -26,7 +26,6 @@ function ProductDetails() {
   return (
     <div className="product-card py-5">
       <div className="container py-5">
-        {/* <h1>Product Details</h1> */}
         <div className="row  py-5 my-5 flex-column flex-lg-row gap-5 align-items-lg-center  ">
           <div className="col-sm-10 col-lg-5">
             <div className="product-Image d-flex justify-content-center ">

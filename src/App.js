@@ -1,4 +1,4 @@
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import NavBar from "./Components/Navbar";
@@ -15,7 +15,6 @@ import ContactUs from "./Pages/ContactUs";
 import ThankYouPage from "./Pages/ThankYouPage";
 import About from "./Pages/AboutPage";
 import ProductsInCategory from "./Pages/ProductsInCategory";
-// import ProductsCategory from "./Components/Pages/ProductsCategory";
 function App() {
   return (
     <div className="App">
@@ -51,4 +50,3 @@ function App() {
 }
 
 export default App;
-// export default GetName;
